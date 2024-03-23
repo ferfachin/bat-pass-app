@@ -6,7 +6,7 @@ import batlogo from '../../../assets/bat-logo.png';
 
 export default function BatLogo() {
   return (
-    <View>
+    <>
       <Text style={styles.title}>BAT PASSA GENERATOR</Text>
       <Image source={batlogo} 
         style={{ 
@@ -14,6 +14,6 @@ export default function BatLogo() {
           height: 180
          }}
       />
-    </View>
+    </>
   );
 }
